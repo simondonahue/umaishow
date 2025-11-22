@@ -24,9 +24,9 @@ import io.github.mee1080.umaishow.data.Store
 import kotlinx.collections.immutable.*
 
 enum class Page(val displayName: String, val icon: String) {
-    Table("Affinity Table", "table_view"),
-    Calc("Modification Calc", "calculate"),
-    Factor("Factor Farming", "autorenew"),
+    Table("相性表", "table_view"),
+    Calc("魔改造計算", "calculate"),
+    Factor("因子周回", "autorenew"),
 }
 
 data class State(
@@ -76,9 +76,9 @@ object CharaList {
     val nameList = Store.charaNameList
     val charaRelation = Store.charaRelation
     val indexedCharaList = nameList.mapIndexed { index, name -> index to name }.toImmutableList()
-    val childList = (listOf(-1 to "2-Generation Affinity") + indexedCharaList).toImmutableList()
-    val relationFilter = (listOf(-1 to "Not Set") + RelationInfo.filters).toImmutableList()
-    val columnList = (nameList + listOf("Total", "Factor", "Owned")).toImmutableList()
+    val childList = (listOf(-1 to "2世代相性") + indexedCharaList).toImmutableList()
+    val relationFilter = (listOf(-1 to "未設定") + RelationInfo.filters).toImmutableList()
+    val columnList = (nameList + listOf("合計", "要素", "所持")).toImmutableList()
     val ownedIndex = columnList.lastIndex
     val relationIndex = columnList.lastIndex - 1
     val totalIndex = columnList.lastIndex - 2
@@ -106,12 +106,12 @@ data class CharaSelection(
 
     val childEntry get() = child to getCharaName(child) { CharaList.childList[0].second }
 
-    val parent1Name = "Parent 1 : " + getCharaName(parent1)
-    val parent2Name = "Parent 2 : " + getCharaName(parent2)
-    val parent11Name = "Grandparent 1-1 : " + getCharaName(parent11)
-    val parent12Name = "Grandparent 1-2 : " + getCharaName(parent12)
-    val parent21Name = "Grandparent 2-1 : " + getCharaName(parent21)
-    val parent22Name = "Grandparent 2-2 : " + getCharaName(parent22)
+    val parent1Name = "親1 : " + getCharaName(parent1)
+    val parent2Name = "親2 : " + getCharaName(parent2)
+    val parent11Name = "祖1-1 : " + getCharaName(parent11)
+    val parent12Name = "祖1-2 : " + getCharaName(parent12)
+    val parent21Name = "祖2-1 : " + getCharaName(parent21)
+    val parent22Name = "祖2-2 : " + getCharaName(parent22)
 
     val parent1List = generateParentList { Store.parent(child, it) to calcTotalRelation(parent1 = it) }
     val parent2List = generateParentList { Store.parent(child, it) to calcTotalRelation(parent2 = it) }
@@ -146,10 +146,10 @@ data class CharaSelection(
         if (orderByRelation) {
             list = list.sortedByDescending { it.third }
         }
-        return listOf(-1 to "Not Selected") + list.map { it.first to it.second }
+        return listOf(-1 to "未選択") + list.map { it.first to it.second }
     }
 
-    private fun getCharaName(index: Int, defaultValue: () -> String = { "Not Selected" }) =
+    private fun getCharaName(index: Int, defaultValue: () -> String = { "未選択" }) =
         CharaList.nameList.getOrElse(index) { defaultValue() }
 }
 
@@ -196,7 +196,7 @@ data class CalcState(
 )
 
 enum class Type(private val display: String) {
-    Ground("Ground"), Distance("Distance"), RunningStyle("Strategy");
+    Ground("バ場"), Distance("距離"), RunningStyle("脚質");
 
     override fun toString() = display
 }

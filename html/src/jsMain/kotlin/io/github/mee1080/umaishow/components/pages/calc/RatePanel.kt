@@ -32,8 +32,8 @@ import org.jetbrains.compose.web.dom.*
 
 @Composable
 fun RatePanel(state: CalcState, charaSelection: CharaSelection, viewModel: ViewModel) {
-    H2 { Text("魔改造計算機（β）") }
-    H3 { Text("初期適性") }
+    H2 { Text("Modification Calculator (Beta)") }
+    H3 { Text("Initial Aptitude") }
     Type.values().forEach { type ->
         Div {
             Text("$type：")
@@ -49,7 +49,7 @@ fun RatePanel(state: CalcState, charaSelection: CharaSelection, viewModel: ViewM
             }
         }
     }
-    H3 { Text("因子") }
+    H3 { Text("Factor") }
     Div {
         FactorSelect(state.setting, viewModel, charaSelection.parent1Name, 0)
         FactorSelect(state.setting, viewModel, charaSelection.parent11Name, 2)
@@ -60,9 +60,9 @@ fun RatePanel(state: CalcState, charaSelection: CharaSelection, viewModel: ViewM
     }
     H3 {
         val initial = Type.values().joinToString(", ") { it.toString() + state.result.initialProperValue[it.ordinal] }
-        Text("開始時適性： $initial")
+        Text("Starting Aptitude: $initial")
     }
-    H3 { Text("目標適性") }
+    H3 { Text("Goal Aptitude") }
     Type.values().forEach { type ->
         Div {
             Text("$type：")
@@ -78,9 +78,9 @@ fun RatePanel(state: CalcState, charaSelection: CharaSelection, viewModel: ViewM
             }
         }
     }
-    H2 { Text("計算結果") }
-    H3 { Text("目標達成率： ${state.result.goalRate.roundToPercentString(100)}") }
-    H3 { Text("個別発動率") }
+    H2 { Text("Calculation Results") }
+    H3 { Text("Goal Achievement Rate: ${state.result.goalRate.roundToPercentString(100)}") }
+    H3 { Text("Individual Activation Rate") }
     Table {
         Tr {
             Td { Text(charaSelection.parent1Name) }
@@ -107,50 +107,50 @@ fun RatePanel(state: CalcState, charaSelection: CharaSelection, viewModel: ViewM
             Td { Text(state.result.rate22.roundToPercentString(100)) }
         }
     }
-    H3 { Text("適性別確率") }
+    H3 { Text("Probability by Aptitude") }
     Table {
         Tr {
-            Th { Text("種別") }
+            Th { Text("Type") }
             Rank.values().forEach {
                 Th { Text(it.name) }
             }
         }
         Tr {
-            Th { Text("バ場") }
+            Th { Text("Ground") }
             state.result.groundRate.forEach {
                 Td { Text(it.roundToPercentString(100)) }
             }
         }
         Tr {
-            Th { Text("距離") }
+            Th { Text("Distance") }
             state.result.distanceRate.forEach {
                 Td { Text(it.roundToPercentString(100)) }
             }
         }
         Tr {
-            Th { Text("脚質") }
+            Th { Text("Strategy") }
             state.result.runningTypeRate.forEach {
                 Td { Text(it.roundToPercentString(100)) }
             }
         }
     }
-    H2 { Text("基本確率（推定値）") }
+    H2 { Text("Base Probability (Estimated)") }
     (1..3).forEach { level ->
         Div {
-            Text("赤${level}基本発動率：")
+            Text("Red ${level} Base Activation Rate:")
             NumberInput(state.setting.baseRate[level] * 100) {
                 onInput { e -> e.value?.let { viewModel.updateCalcBaseRate(level, it) } }
             }
         }
     }
     Div {
-        Text("親の相性補正：")
+        Text("Parent Affinity Bonus:")
         TextInput(state.setting.parentBonus.toString()) {
             onInput { viewModel.updateCalcSetting { copy(parentBonus = it.value.toIntOrNull() ?: parentBonus) } }
         }
     }
-    H2 { Text("備考") }
-    Div { Text("こちらの仮説を元に作成しています") }
+    H2 { Text("Notes") }
+    Div { Text("Created based on this hypothesis") }
     Div {
         A(
             href = "https://twitter.com/mee10801/status/1510981906229530624",
@@ -198,9 +198,9 @@ private fun FactorSelect(
         if (index != 1) {
             Div {
                 if (index == 0) {
-                    Text("親同士の共通GI勝利数：")
+                    Text("Common G1 Wins between Parents:")
                 } else {
-                    Text("親との共通GI勝利数：")
+                    Text("Common G1 Wins with Parent:")
                 }
                 NumberInput(setting.bonusCount[index]) {
                     onInput { e -> e.value?.let { viewModel.updateCalcBonusCount(index, it) } }

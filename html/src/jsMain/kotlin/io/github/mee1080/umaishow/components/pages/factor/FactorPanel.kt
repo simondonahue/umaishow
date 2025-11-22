@@ -11,8 +11,8 @@ import org.jetbrains.compose.web.dom.*
 
 @Composable
 fun FactorPanel(state: FactorState, model: ViewModel) {
-    H2 { Text("因子周回or本育成判定機") }
-    Div { Text("因子周回を続けるべきか、妥協して本育成に行くべきか計算します。") }
+    H2 { Text("Factor Farming or Main Training Decision") }
+    Div { Text("Calculates whether you should continue factor farming or compromise and proceed to main training.") }
     Div({
         style {
             display(DisplayStyle.Flex)
@@ -25,22 +25,22 @@ fun FactorPanel(state: FactorState, model: ViewModel) {
                 maxWidth(700.px)
             }
         }) {
-            H3 { Text("現在の因子で本育成成功する確率") }
-            Div { Text("※因子発動を含め、適性スキルステ全て揃う確率を入力") }
+            H3 { Text("Probability of Main Training Success with Current Factors") }
+            Div { Text("*Enter the probability of getting all aptitude skills and stats, including factor activation") }
             LabeledSlider(state.realSuccessRate, 1, 1000, toDisplay, { model.calcFactorState() }) {
                 model.updateFactorState { copy(realSuccessRate = it.toInt()) }
             }
-            H3 { Text("因子周回に成功する確率") }
-            Div { Text("※白の数とか単純に成否で測れないけど、単純化のため成功/失敗の2択で計算") }
+            H3 { Text("Probability of Factor Farming Success") }
+            Div { Text("*Although it can't be simply measured by the number of white factors, it is calculated as a binary success/failure for simplification") }
             LabeledSlider(state.circlingSuccessRate, 1, 1000, toDisplay, { model.calcFactorState() }) {
                 model.updateFactorState { copy(circlingSuccessRate = it.toInt()) }
             }
-            H3 { Text("因子周回成功後に本育成成功する確率") }
-            Div { Text("※上の確率で因子周回成功した後、適性スキルステ全て揃う確率を入力") }
+            H3 { Text("Probability of Main Training Success after Factor Farming Success") }
+            Div { Text("*Enter the probability of getting all aptitude skills and stats after successful factor farming with the above probability") }
             LabeledSlider(state.circlingRealSuccessRate, 1, 1000, toDisplay, { model.calcFactorState() }) {
                 model.updateFactorState { copy(circlingRealSuccessRate = it.toInt()) }
             }
-            H3 { Text("育成予定回数") }
+            H3 { Text("Planned Training Count") }
             LabeledSlider(state.challengeCount, 0, 100, onChange = { model.calcFactorState() }) {
                 model.updateFactorState { copy(challengeCount = it.toInt()) }
             }
@@ -51,14 +51,14 @@ fun FactorPanel(state: FactorState, model: ViewModel) {
                 maxWidth(480.px)
             }
         }) {
-            H3 { Text("計算結果") }
+            H3 { Text("Calculation Results") }
             if (state.result.isNotEmpty()) {
-                Div { Text("因子周回すべき最大回数: ${state.maxRateIndex} 回") }
+                Div { Text("Max Factor Farming Count: ${state.maxRateIndex} times") }
                 Table({ classes(AppStyleSheet.table) }) {
                     Tr {
-                        Th { Text("最大因子周回数") }
-                        Th { Text("育成予定回数内での本育成成功率") }
-                        Th { Text("最大") }
+                        Th { Text("Max Factor Farming Count") }
+                        Th { Text("Main Training Success Rate within Planned Count") }
+                        Th { Text("Max") }
                     }
                     state.result.forEachIndexed { index, rate ->
                         Tr {
@@ -72,8 +72,8 @@ fun FactorPanel(state: FactorState, model: ViewModel) {
                         }
                     }
                 }
-                Div { Text("※因子周回成功するか、最大因子周回数まで因子周回して、残り回数を本育成した場合に、本育成成功する確率をシミュレーション") }
-                Div { Text("※要するに因子周回は最大でも★がついている回数までにすべき") }
+                Div { Text("*Simulates the probability of main training success if you succeed in factor farming or farm up to the max count and then use the remaining count for main training") }
+                Div { Text("*In short, factor farming should be done at most up to the count marked with ★") }
             }
         }
     }

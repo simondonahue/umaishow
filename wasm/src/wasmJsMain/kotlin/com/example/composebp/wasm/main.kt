@@ -7,7 +7,7 @@ import kotlinx.coroutines.ExperimentalCoroutinesApi
 
 @OptIn(ExperimentalComposeUiApi::class, ExperimentalCoroutinesApi::class)
 fun main() {
-    CanvasBasedWindow("ウマ娘相性表") {
+    CanvasBasedWindow("Uma Musume Affinity Chart") {
         App("LINESeedJP_OTF_Rg.woff2")
     }
 }

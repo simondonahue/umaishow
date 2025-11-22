@@ -25,19 +25,19 @@ fun SettingBlock(state: State, viewModel: ViewModel) {
             items = state.charaList.childList,
             selectedItem = state.charaSelection.childEntry,
             onSelect = { viewModel.updateChild(it.first) },
-            label = { Text("表示対象") },
+            label = { Text("Display Target") },
             itemToString = { it.second },
         )
         Column {
             FilterSettingPanel(
-                label = "行表示対象",
+                label = "Row Display Target",
                 mode = tableState.rowFilter.mode,
                 showRelationFilterDialog = { viewModel.showRowRelationFilterDialog = true },
                 showNameFilterDialog = { viewModel.showRowNameFilterDialog = true },
                 update = { viewModel.updateRowFilter { copy(mode = it) } },
             )
             FilterSettingPanel(
-                label = "列表示対象",
+                label = "Column Display Target",
                 mode = tableState.columnFilter.mode,
                 showRelationFilterDialog = { viewModel.showColumnRelationFilterDialog = true },
                 showNameFilterDialog = { viewModel.showColumnNameFilterDialog = true },
@@ -94,22 +94,22 @@ fun FilterSettingPanel(
         LabeledRadioButton(
             selected = mode == FilterMode.NONE,
             onClick = { update(FilterMode.NONE) },
-        ) { Text("すべて") }
+        ) { Text("All") }
         LabeledRadioButton(
             selected = mode == FilterMode.RELATION,
             onClick = { update(FilterMode.RELATION) },
-        ) { Text("要素") }
+        ) { Text("Factor") }
         MyButton(
             onClick = showRelationFilterDialog,
             enabled = mode == FilterMode.RELATION,
-        ) { Text("設定") }
+        ) { Text("Settings") }
         LabeledRadioButton(
             selected = mode == FilterMode.NAME,
             onClick = { update(FilterMode.NAME) },
-        ) { Text("名前") }
+        ) { Text("Name") }
         MyButton(
             onClick = showNameFilterDialog,
             enabled = mode == FilterMode.NAME,
-        ) { Text("設定") }
+        ) { Text("Settings") }
     }
 }

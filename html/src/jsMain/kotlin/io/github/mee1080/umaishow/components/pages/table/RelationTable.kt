@@ -41,18 +41,18 @@ fun RelationTable(state: TableState, model: ViewModel) {
                 Th({ classes(AppStyleSheet.column[CharaList.ownedIndex]) }) {
                     Span({
                         classes(AppStyleSheet.verticalHeader)
-                    }) { Text("所持") }
+                    }) { Text("Owned") }
                 }
                 Th({
                     classes(AppStyleSheet.clickable)
                     onClickOrTouch { model.sort(-2) }
-                }) { Small { Text("列クリックでソート→") } }
+                }) { Small { Text("Click column to sort ->") } }
                 if (state.displayChild) {
                     Th {
                         Span({
                             classes(AppStyleSheet.verticalHeader, AppStyleSheet.clickable)
                             onClickOrTouch { model.sort(-1) }
-                        }) { Text("親相性") }
+                        }) { Text("Parent Affinity") }
                     }
                 }
                 CharaList.nameList.forEachIndexed { index, name ->
@@ -67,13 +67,13 @@ fun RelationTable(state: TableState, model: ViewModel) {
                     Span({
                         classes(AppStyleSheet.verticalHeader, AppStyleSheet.clickable)
                         onClickOrTouch { model.sort(CharaList.charaCount) }
-                    }) { Text("合計") }
+                    }) { Text("Total") }
                 }
                 Th({ classes(AppStyleSheet.column[CharaList.relationIndex]) }) {
-                    Span({ classes(AppStyleSheet.verticalHeader) }) { Text("要素") }
+                    Span({ classes(AppStyleSheet.verticalHeader) }) { Text("Factor") }
                 }
                 Th {
-                    Span({ classes(AppStyleSheet.verticalHeader) }) { Text("名前") }
+                    Span({ classes(AppStyleSheet.verticalHeader) }) { Text("Name") }
                 }
             }
             state.relationTable.forEach { entry ->
@@ -99,7 +99,7 @@ fun RelationTable(state: TableState, model: ViewModel) {
                                     model.showRelationInfo(entry.index)
                                 }
                             }) {
-                                Text("その他")
+                                Text("Other")
                             }
                         }
                     }

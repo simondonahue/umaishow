@@ -41,11 +41,11 @@ object Preferences {
 
     fun loadOwnedChara() =
         load(KEY_OWNED_CHARA)?.split(",") ?: listOf(
-            "サクラバクシンオー",
-            "ハルウララ",
-            "ダイワスカーレット",
-            "ウオッカ",
-            "ゴールドシップ"
+            "Sakura Bakushin O",
+            "Haru Urara",
+            "Daiwa Scarlet",
+            "Vodka",
+            "Gold Ship"
         )
 
     private const val KEY_ROW_CUSTOM_FILTER = "RowCustomFilter"

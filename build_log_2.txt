@@ -1,0 +1,989 @@
+
+> Configure project :composeCommon
+New 'wasm' target is Work-in-Progress and is subject to change without notice.
+
+> Configure project :core
+New 'wasm' target is Work-in-Progress and is subject to change without notice.
+
+> Configure project :utility
+New 'wasm' target is Work-in-Progress and is subject to change without notice.
+
+> Configure project :wasm
+New 'wasm' target is Work-in-Progress and is subject to change without notice.
+
+> Task :assemble UP-TO-DATE
+> Task :check UP-TO-DATE
+> Task :build UP-TO-DATE
+> Task :composeCommon:checkKotlinGradlePluginConfigurationErrors
+> Task :composeCommon:generateComposeResClass UP-TO-DATE
+> Task :core:checkKotlinGradlePluginConfigurationErrors
+> Task :core:generateComposeResClass UP-TO-DATE
+> Task :core:transformCommonMainDependenciesMetadata UP-TO-DATE
+> Task :core:generateProjectStructureMetadata UP-TO-DATE
+> Task :core:metadataCommonMainProcessResources NO-SOURCE
+> Task :composeCommon:generateProjectStructureMetadata UP-TO-DATE
+> Task :composeCommon:metadataCommonMainProcessResources NO-SOURCE
+> Task :core:jvmProcessResources NO-SOURCE
+> Task :composeCommon:jvmProcessResources NO-SOURCE
+> Task :composeCommon:wasmJsProcessResources NO-SOURCE
+> Task :core:wasmJsProcessResources NO-SOURCE
+> Task :kotlinNpmCachesSetup
+> Task :core:wasmJsPackageJson UP-TO-DATE
+> Task :core:wasmJsPublicPackageJson UP-TO-DATE
+> Task :kotlinNodeJsSetup UP-TO-DATE
+> Task :kotlinRestoreYarnLock UP-TO-DATE
+> Task :kotlinYarnSetup UP-TO-DATE
+> Task :core:jsPackageJson UP-TO-DATE
+> Task :composeCommon:wasmJsPackageJson UP-TO-DATE
+> Task :composeCommon:wasmJsTestPackageJson UP-TO-DATE
+> Task :core:jsTestPackageJson UP-TO-DATE
+> Task :core:wasmJsTestPackageJson UP-TO-DATE
+> Task :html:jsPackageJson UP-TO-DATE
+> Task :html:jsTestPackageJson UP-TO-DATE
+> Task :utility:jsPackageJson UP-TO-DATE
+> Task :utility:jsTestPackageJson UP-TO-DATE
+> Task :utility:wasmJsPackageJson UP-TO-DATE
+> Task :utility:wasmJsTestPackageJson UP-TO-DATE
+> Task :wasm:wasmJsPackageJson UP-TO-DATE
+> Task :wasm:wasmJsTestPackageJson UP-TO-DATE
+> Task :composeCommon:wasmJsPublicPackageJson UP-TO-DATE
+> Task :composeCommon:wasmJsTestPublicPackageJson UP-TO-DATE
+> Task :core:jsPublicPackageJson UP-TO-DATE
+> Task :core:jsTestPublicPackageJson UP-TO-DATE
+> Task :core:wasmJsTestPublicPackageJson UP-TO-DATE
+> Task :html:jsPublicPackageJson UP-TO-DATE
+> Task :html:jsTestPublicPackageJson UP-TO-DATE
+> Task :utility:jsPublicPackageJson UP-TO-DATE
+> Task :utility:jsTestPublicPackageJson UP-TO-DATE
+> Task :utility:wasmJsPublicPackageJson UP-TO-DATE
+> Task :utility:wasmJsTestPublicPackageJson UP-TO-DATE
+> Task :wasm:wasmJsPublicPackageJson UP-TO-DATE
+> Task :wasm:wasmJsTestPublicPackageJson UP-TO-DATE
+> Task :packageJsonUmbrella UP-TO-DATE
+> Task :rootPackageJson UP-TO-DATE
+> Task :kotlinNpmInstall UP-TO-DATE
+> Task :kotlinStoreYarnLock UP-TO-DATE
+> Task :composeCommon:jvmTestProcessResources NO-SOURCE
+> Task :composeCommon:wasmJsTestProcessResources NO-SOURCE
+> Task :core:jsProcessResources NO-SOURCE
+> Task :core:jsBrowserProductionExecutableDistributeResources NO-SOURCE
+> Task :core:jsTestProcessResources NO-SOURCE
+> Task :core:jvmTestProcessResources NO-SOURCE
+> Task :core:wasmJsTestProcessResources NO-SOURCE
+> Task :desktop:generateProjectStructureMetadata UP-TO-DATE
+> Task :desktop:allMetadataJar UP-TO-DATE
+> Task :desktop:checkKotlinGradlePluginConfigurationErrors
+> Task :desktop:generateComposeResClass UP-TO-DATE
+> Task :desktop:jvmProcessResources UP-TO-DATE
+> Task :desktop:jvmTestProcessResources NO-SOURCE
+> Task :html:generateProjectStructureMetadata UP-TO-DATE
+> Task :html:allMetadataJar UP-TO-DATE
+> Task :html:jsProcessResources UP-TO-DATE
+> Task :html:jsBrowserProductionExecutableDistributeResources UP-TO-DATE
+> Task :html:checkKotlinGradlePluginConfigurationErrors
+> Task :html:generateComposeResClass UP-TO-DATE
+> Task :html:jsTestProcessResources NO-SOURCE
+> Task :utility:checkKotlinGradlePluginConfigurationErrors
+> Task :utility:transformCommonMainDependenciesMetadata UP-TO-DATE
+> Task :utility:compileCommonMainKotlinMetadata UP-TO-DATE
+> Task :utility:generateProjectStructureMetadata UP-TO-DATE
+> Task :utility:metadataCommonMainProcessResources NO-SOURCE
+> Task :utility:metadataCommonMainClasses UP-TO-DATE
+> Task :utility:allMetadataJar UP-TO-DATE
+> Task :utility:jsProcessResources NO-SOURCE
+> Task :utility:jsBrowserProductionExecutableDistributeResources NO-SOURCE
+> Task :utility:compileKotlinJs UP-TO-DATE
+> Task :utility:jsMainClasses UP-TO-DATE
+> Task :utility:compileProductionExecutableKotlinJs UP-TO-DATE
+> Task :utility:jsProductionExecutableCompileSync UP-TO-DATE
+> Task :utility:jsBrowserProductionWebpack UP-TO-DATE
+> Task :utility:jsBrowserDistribution UP-TO-DATE
+> Task :utility:jsJar UP-TO-DATE
+> Task :utility:compileKotlinJvm UP-TO-DATE
+> Task :utility:jvmProcessResources NO-SOURCE
+> Task :utility:jvmMainClasses UP-TO-DATE
+> Task :utility:jvmJar UP-TO-DATE
+> Task :utility:wasmJsProcessResources NO-SOURCE
+> Task :utility:compileKotlinWasmJs UP-TO-DATE
+> Task :utility:wasmJsMainClasses UP-TO-DATE
+> Task :utility:compileProductionExecutableKotlinWasmJs UP-TO-DATE
+> Task :utility:wasmJsProductionExecutableCompileSync
+> Task :utility:wasmJsBrowserProductionExecutableDistributeResources
+
+> Task :core:compileCommonMainKotlinMetadata FAILED
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/RateCalculator.kt:30:47 Unresolved reference: CharaSelection
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/RateCalculator.kt:43:42 Overload resolution ambiguity: 
+public final operator fun plus(other: Byte): Int defined in kotlin.Int
+public final operator fun plus(other: Double): Double defined in kotlin.Int
+public final operator fun plus(other: Float): Float defined in kotlin.Int
+public final operator fun plus(other: Int): Int defined in kotlin.Int
+public final operator fun plus(other: Long): Long defined in kotlin.Int
+public final operator fun plus(other: Short): Int defined in kotlin.Int
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/RateCalculator.kt:47:42 Overload resolution ambiguity: 
+public final operator fun plus(other: Byte): Int defined in kotlin.Int
+public final operator fun plus(other: Double): Double defined in kotlin.Int
+public final operator fun plus(other: Float): Float defined in kotlin.Int
+public final operator fun plus(other: Int): Int defined in kotlin.Int
+public final operator fun plus(other: Long): Long defined in kotlin.Int
+public final operator fun plus(other: Short): Int defined in kotlin.Int
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/RateCalculator.kt:72:45 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/RateCalculator.kt:72:52 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/RateCalculator.kt:75:75 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/RateCalculator.kt:75:82 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/RateCalculator.kt:78:95 Not enough information to infer type variable R
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/RateCalculator.kt:79:69 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/RateCalculator.kt:81:41 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/RateCalculator.kt:81:53 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/RateCalculator.kt:83:44 Conversion of signed constants to unsigned ones is prohibited
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/RateCalculator.kt:93:51 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/RateCalculator.kt:94:17 Overload resolution ambiguity: 
+public inline fun <T> Iterable<TypeVariable(T)>.forEach(action: (TypeVariable(T)) -> Unit): Unit defined in kotlin.collections
+public inline fun <K, V> Map<out TypeVariable(K), TypeVariable(V)>.forEach(action: (Map.Entry<TypeVariable(K), TypeVariable(V)>) -> Unit): Unit defined in kotlin.collections
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/RateCalculator.kt:94:27 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/RateCalculator.kt:95:44 Overload resolution ambiguity: 
+public final operator fun plus(other: Byte): Double defined in kotlin.Double
+public final operator fun plus(other: Double): Double defined in kotlin.Double
+public final operator fun plus(other: Float): Double defined in kotlin.Double
+public final operator fun plus(other: Int): Double defined in kotlin.Double
+public final operator fun plus(other: Long): Double defined in kotlin.Double
+public final operator fun plus(other: Short): Double defined in kotlin.Double
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/RateCalculator.kt:96:44 Overload resolution ambiguity: 
+public final operator fun plus(other: Byte): Double defined in kotlin.Double
+public final operator fun plus(other: Double): Double defined in kotlin.Double
+public final operator fun plus(other: Float): Double defined in kotlin.Double
+public final operator fun plus(other: Int): Double defined in kotlin.Double
+public final operator fun plus(other: Long): Double defined in kotlin.Double
+public final operator fun plus(other: Short): Double defined in kotlin.Double
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/RateCalculator.kt:97:44 Overload resolution ambiguity: 
+public final operator fun plus(other: Byte): Double defined in kotlin.Double
+public final operator fun plus(other: Double): Double defined in kotlin.Double
+public final operator fun plus(other: Float): Double defined in kotlin.Double
+public final operator fun plus(other: Int): Double defined in kotlin.Double
+public final operator fun plus(other: Long): Double defined in kotlin.Double
+public final operator fun plus(other: Short): Double defined in kotlin.Double
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/RateCalculator.kt:99:26 Overload resolution ambiguity: 
+public final operator fun plus(other: Byte): Double defined in kotlin.Double
+public final operator fun plus(other: Double): Double defined in kotlin.Double
+public final operator fun plus(other: Float): Double defined in kotlin.Double
+public final operator fun plus(other: Int): Double defined in kotlin.Double
+public final operator fun plus(other: Long): Double defined in kotlin.Double
+public final operator fun plus(other: Short): Double defined in kotlin.Double
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/RateCalculator.kt:103:107 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:54:1 Expecting a top level declaration
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:21:45 Unresolved reference: Store
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:21:63 Unresolved reference: child
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:21:70 Unresolved reference: parent2
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:24:22 'this' is not defined in this context
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:25:24 'this' is not defined in this context
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:26:24 'this' is not defined in this context
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:27:25 'this' is not defined in this context
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:28:25 'this' is not defined in this context
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:29:25 'this' is not defined in this context
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:30:25 'this' is not defined in this context
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:32:16 Unresolved reference: Store
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:32:47 Unresolved reference: Store
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:32:78 Unresolved reference: Store
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:33:17 Unresolved reference: Store
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:33:63 Unresolved reference: Store
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:34:17 Unresolved reference: Store
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:34:63 Unresolved reference: Store
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:40:14 Unresolved reference: childSelected
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:41:20 Unresolved reference: CharaList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:42:20 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:46:13 Unresolved reference: orderByRelation
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:47:46 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:49:58 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:49:70 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:53:9 Unresolved reference: CharaList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:60:23 Unresolved reference: ImmutableList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:72:17 Unresolved reference: ImmutableMap
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:72:49 Unresolved reference: persistentMapOf
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:73:19 Unresolved reference: ImmutableList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:73:40 Unresolved reference: persistentListOf
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:74:16 Unresolved reference: ImmutableList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:74:40 Unresolved reference: persistentListOf
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:82:13 Unresolved reference: CharaList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:82:61 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:83:32 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:83:65 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:87:70 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:109:19 Unresolved reference: ImmutableList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:109:43 Unresolved reference: persistentListOf
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:112:29 Unresolved reference: ImmutableList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:112:51 Unresolved reference: persistentListOf
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:113:26 Unresolved reference: ImmutableList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:113:48 Unresolved reference: persistentListOf
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:114:21 Unresolved reference: ImmutableList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:114:43 Unresolved reference: PersistentList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:114:67 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:115:22 Unresolved reference: ImmutableList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:115:43 Unresolved reference: PersistentList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:116:21 Unresolved reference: ImmutableList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:116:42 Unresolved reference: PersistentList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:127:29 Unresolved reference: ImmutableList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:127:51 Unresolved reference: PersistentList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:128:21 Unresolved reference: ImmutableList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:128:45 Unresolved reference: PersistentList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:129:23 Unresolved reference: ImmutableList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:129:47 Unresolved reference: PersistentList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:130:26 Unresolved reference: ImmutableList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:130:50 Unresolved reference: PersistentList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:140:17 Unresolved reference: ImmutableList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:140:41 Unresolved reference: persistentListOf
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:36:18 Property delegate must have a 'getValue(ViewModel, KProperty<*>)' method. None of the following functions is suitable: 
+public inline operator fun <T> State<???>.getValue(thisObj: Any?, property: KProperty<*>): ??? defined in androidx.compose.runtime
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:36:18 Property delegate must have a 'setValue(ViewModel, KProperty<*>, [Error type: Error delegation type for mutableStateOf(State())])' method. None of the following functions is suitable: 
+public inline operator fun <T> MutableState<???>.setValue(thisObj: Any?, property: KProperty<*>, value: ???): Unit defined in androidx.compose.runtime
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:36:33 Unresolved reference: State
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:42:37 Unresolved reference: State
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:42:49 Unresolved reference: State
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:46:41 Unresolved reference: CharaSelection
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:46:62 Unresolved reference: CharaSelection
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:53:42 Unresolved reference: TableState
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:53:59 Unresolved reference: TableState
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:59:24 Unresolved reference: Page
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:109:79 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:122:26 Unresolved reference: CharaList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:123:23 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:123:108 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:124:20 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:125:55 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:127:20 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:127:46 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:129:20 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:129:46 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:136:26 Unresolved reference: CharaList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:138:16 Overload resolution ambiguity: 
+public inline fun <T> Iterable<TypeVariable(T)>.forEach(action: (TypeVariable(T)) -> Unit): Unit defined in kotlin.collections
+public inline fun <K, V> Map<out TypeVariable(K), TypeVariable(V)>.forEach(action: (Map.Entry<TypeVariable(K), TypeVariable(V)>) -> Unit): Unit defined in kotlin.collections
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:138:26 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:142:47 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:142:59 Overload resolution ambiguity: 
+public inline fun <T> Iterable<TypeVariable(T)>.forEach(action: (TypeVariable(T)) -> Unit): Unit defined in kotlin.collections
+public inline fun <K, V> Map<out TypeVariable(K), TypeVariable(V)>.forEach(action: (Map.Entry<TypeVariable(K), TypeVariable(V)>) -> Unit): Unit defined in kotlin.collections
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:142:69 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:148:38 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:148:49 Overload resolution ambiguity: 
+public inline fun <T> Iterable<TypeVariable(T)>.forEach(action: (TypeVariable(T)) -> Unit): Unit defined in kotlin.collections
+public inline fun <K, V> Map<out TypeVariable(K), TypeVariable(V)>.forEach(action: (Map.Entry<TypeVariable(K), TypeVariable(V)>) -> Unit): Unit defined in kotlin.collections
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:148:59 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:151:61 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:151:67 Overload resolution ambiguity: 
+public inline fun <T> Iterable<TypeVariable(T)>.forEach(action: (TypeVariable(T)) -> Unit): Unit defined in kotlin.collections
+public inline fun <K, V> Map<out TypeVariable(K), TypeVariable(V)>.forEach(action: (Map.Entry<TypeVariable(K), TypeVariable(V)>) -> Unit): Unit defined in kotlin.collections
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:151:77 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:155:50 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:155:61 Overload resolution ambiguity: 
+public inline fun <T> Iterable<TypeVariable(T)>.forEach(action: (TypeVariable(T)) -> Unit): Unit defined in kotlin.collections
+public inline fun <K, V> Map<out TypeVariable(K), TypeVariable(V)>.forEach(action: (Map.Entry<TypeVariable(K), TypeVariable(V)>) -> Unit): Unit defined in kotlin.collections
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:155:71 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:158:73 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:158:79 Overload resolution ambiguity: 
+public inline fun <T> Iterable<TypeVariable(T)>.forEach(action: (TypeVariable(T)) -> Unit): Unit defined in kotlin.collections
+public inline fun <K, V> Map<out TypeVariable(K), TypeVariable(V)>.forEach(action: (Map.Entry<TypeVariable(K), TypeVariable(V)>) -> Unit): Unit defined in kotlin.collections
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:158:89 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:201:50 Unresolved reference: CharaList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:201:92 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:201:99 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:209:16 Unresolved reference: CharaList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:209:58 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:209:65 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:226:46 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:228:31 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:228:53 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:228:83 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:231:26 Unresolved reference: CharaList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:236:31 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:236:63 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:236:70 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:239:17 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:241:42 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:243:53 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:243:60 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:262:73 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:262:80 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:274:90 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:278:69 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:280:90 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:324:76 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:324:83 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:336:96 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:340:72 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:342:96 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:433:20 Unresolved reference: CharaList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:433:76 Unresolved reference: CharaList
+
+> Task :utility:wasmJsBrowserProductionWebpack
+
+> Task :core:compileKotlinWasmJs FAILED
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/RateCalculator.kt:30:47 Unresolved reference: CharaSelection
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/RateCalculator.kt:43:42 Overload resolution ambiguity: 
+public final inline operator fun plus(other: Byte): Int defined in kotlin.Int
+public final inline operator fun plus(other: Double): Double defined in kotlin.Int
+public final inline operator fun plus(other: Float): Float defined in kotlin.Int
+public final operator fun plus(other: Int): Int defined in kotlin.Int
+public final inline operator fun plus(other: Long): Long defined in kotlin.Int
+public final inline operator fun plus(other: Short): Int defined in kotlin.Int
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/RateCalculator.kt:47:42 Overload resolution ambiguity: 
+public final inline operator fun plus(other: Byte): Int defined in kotlin.Int
+public final inline operator fun plus(other: Double): Double defined in kotlin.Int
+public final inline operator fun plus(other: Float): Float defined in kotlin.Int
+public final operator fun plus(other: Int): Int defined in kotlin.Int
+public final inline operator fun plus(other: Long): Long defined in kotlin.Int
+public final inline operator fun plus(other: Short): Int defined in kotlin.Int
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/RateCalculator.kt:72:45 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/RateCalculator.kt:72:52 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/RateCalculator.kt:75:75 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/RateCalculator.kt:75:82 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/RateCalculator.kt:78:95 Not enough information to infer type variable R
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/RateCalculator.kt:79:69 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/RateCalculator.kt:81:41 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/RateCalculator.kt:81:53 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/RateCalculator.kt:93:51 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/RateCalculator.kt:94:17 Overload resolution ambiguity: 
+public inline fun <T> Iterable<TypeVariable(T)>.forEach(action: (TypeVariable(T)) -> Unit): Unit defined in kotlin.collections
+public inline fun <K, V> Map<out TypeVariable(K), TypeVariable(V)>.forEach(action: (Map.Entry<TypeVariable(K), TypeVariable(V)>) -> Unit): Unit defined in kotlin.collections
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/RateCalculator.kt:94:27 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/RateCalculator.kt:95:44 Overload resolution ambiguity: 
+public final inline operator fun plus(other: Byte): Double defined in kotlin.Double
+public final operator fun plus(other: Double): Double defined in kotlin.Double
+public final inline operator fun plus(other: Float): Double defined in kotlin.Double
+public final inline operator fun plus(other: Int): Double defined in kotlin.Double
+public final inline operator fun plus(other: Long): Double defined in kotlin.Double
+public final inline operator fun plus(other: Short): Double defined in kotlin.Double
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/RateCalculator.kt:96:44 Overload resolution ambiguity: 
+public final inline operator fun plus(other: Byte): Double defined in kotlin.Double
+public final operator fun plus(other: Double): Double defined in kotlin.Double
+public final inline operator fun plus(other: Float): Double defined in kotlin.Double
+public final inline operator fun plus(other: Int): Double defined in kotlin.Double
+public final inline operator fun plus(other: Long): Double defined in kotlin.Double
+public final inline operator fun plus(other: Short): Double defined in kotlin.Double
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/RateCalculator.kt:97:44 Overload resolution ambiguity: 
+public final inline operator fun plus(other: Byte): Double defined in kotlin.Double
+public final operator fun plus(other: Double): Double defined in kotlin.Double
+public final inline operator fun plus(other: Float): Double defined in kotlin.Double
+public final inline operator fun plus(other: Int): Double defined in kotlin.Double
+public final inline operator fun plus(other: Long): Double defined in kotlin.Double
+public final inline operator fun plus(other: Short): Double defined in kotlin.Double
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/RateCalculator.kt:99:26 Overload resolution ambiguity: 
+public final inline operator fun plus(other: Byte): Double defined in kotlin.Double
+public final operator fun plus(other: Double): Double defined in kotlin.Double
+public final inline operator fun plus(other: Float): Double defined in kotlin.Double
+public final inline operator fun plus(other: Int): Double defined in kotlin.Double
+public final inline operator fun plus(other: Long): Double defined in kotlin.Double
+public final inline operator fun plus(other: Short): Double defined in kotlin.Double
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/RateCalculator.kt:103:107 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:54:1 Expecting a top level declaration
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:21:45 Unresolved reference: Store
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:21:63 Unresolved reference: child
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:21:70 Unresolved reference: parent2
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:24:22 'this' is not defined in this context
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:25:24 'this' is not defined in this context
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:26:24 'this' is not defined in this context
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:27:25 'this' is not defined in this context
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:28:25 'this' is not defined in this context
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:29:25 'this' is not defined in this context
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:30:25 'this' is not defined in this context
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:32:16 Unresolved reference: Store
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:32:47 Unresolved reference: Store
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:32:78 Unresolved reference: Store
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:33:17 Unresolved reference: Store
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:33:63 Unresolved reference: Store
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:34:17 Unresolved reference: Store
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:34:63 Unresolved reference: Store
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:40:14 Unresolved reference: childSelected
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:41:20 Unresolved reference: CharaList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:42:20 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:46:13 Unresolved reference: orderByRelation
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:47:46 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:49:58 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:49:70 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:53:9 Unresolved reference: CharaList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:60:23 Unresolved reference: ImmutableList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:72:17 Unresolved reference: ImmutableMap
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:72:49 Unresolved reference: persistentMapOf
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:73:19 Unresolved reference: ImmutableList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:73:40 Unresolved reference: persistentListOf
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:74:16 Unresolved reference: ImmutableList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:74:40 Unresolved reference: persistentListOf
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:82:13 Unresolved reference: CharaList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:82:61 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:83:32 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:83:65 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:87:70 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:109:19 Unresolved reference: ImmutableList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:109:43 Unresolved reference: persistentListOf
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:112:29 Unresolved reference: ImmutableList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:112:51 Unresolved reference: persistentListOf
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:113:26 Unresolved reference: ImmutableList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:113:48 Unresolved reference: persistentListOf
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:114:21 Unresolved reference: ImmutableList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:114:43 Unresolved reference: PersistentList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:114:67 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:115:22 Unresolved reference: ImmutableList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:115:43 Unresolved reference: PersistentList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:116:21 Unresolved reference: ImmutableList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:116:42 Unresolved reference: PersistentList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:127:29 Unresolved reference: ImmutableList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:127:51 Unresolved reference: PersistentList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:128:21 Unresolved reference: ImmutableList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:128:45 Unresolved reference: PersistentList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:129:23 Unresolved reference: ImmutableList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:129:47 Unresolved reference: PersistentList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:130:26 Unresolved reference: ImmutableList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:130:50 Unresolved reference: PersistentList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:140:17 Unresolved reference: ImmutableList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:140:41 Unresolved reference: persistentListOf
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:36:18 Property delegate must have a 'getValue(ViewModel, KProperty<*>)' method. None of the following functions is suitable: 
+public inline operator fun <T> State<???>.getValue(thisObj: Any?, property: KProperty<*>): ??? defined in androidx.compose.runtime
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:36:18 Property delegate must have a 'setValue(ViewModel, KProperty<*>, [Error type: Error delegation type for mutableStateOf(State())])' method. None of the following functions is suitable: 
+public inline operator fun <T> MutableState<???>.setValue(thisObj: Any?, property: KProperty<*>, value: ???): Unit defined in androidx.compose.runtime
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:36:33 Unresolved reference: State
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:42:37 Unresolved reference: State
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:42:49 Unresolved reference: State
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:46:41 Unresolved reference: CharaSelection
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:46:62 Unresolved reference: CharaSelection
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:53:42 Unresolved reference: TableState
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:53:59 Unresolved reference: TableState
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:59:24 Unresolved reference: Page
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:109:79 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:122:26 Unresolved reference: CharaList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:123:23 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:123:108 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:124:20 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:125:55 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:127:20 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:127:46 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:129:20 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:129:46 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:136:26 Unresolved reference: CharaList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:138:16 Overload resolution ambiguity: 
+public inline fun <T> Iterable<TypeVariable(T)>.forEach(action: (TypeVariable(T)) -> Unit): Unit defined in kotlin.collections
+public inline fun <K, V> Map<out TypeVariable(K), TypeVariable(V)>.forEach(action: (Map.Entry<TypeVariable(K), TypeVariable(V)>) -> Unit): Unit defined in kotlin.collections
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:138:26 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:142:47 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:142:59 Overload resolution ambiguity: 
+public inline fun <T> Iterable<TypeVariable(T)>.forEach(action: (TypeVariable(T)) -> Unit): Unit defined in kotlin.collections
+public inline fun <K, V> Map<out TypeVariable(K), TypeVariable(V)>.forEach(action: (Map.Entry<TypeVariable(K), TypeVariable(V)>) -> Unit): Unit defined in kotlin.collections
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:142:69 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:148:38 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:148:49 Overload resolution ambiguity: 
+public inline fun <T> Iterable<TypeVariable(T)>.forEach(action: (TypeVariable(T)) -> Unit): Unit defined in kotlin.collections
+public inline fun <K, V> Map<out TypeVariable(K), TypeVariable(V)>.forEach(action: (Map.Entry<TypeVariable(K), TypeVariable(V)>) -> Unit): Unit defined in kotlin.collections
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:148:59 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:151:61 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:151:67 Overload resolution ambiguity: 
+public inline fun <T> Iterable<TypeVariable(T)>.forEach(action: (TypeVariable(T)) -> Unit): Unit defined in kotlin.collections
+public inline fun <K, V> Map<out TypeVariable(K), TypeVariable(V)>.forEach(action: (Map.Entry<TypeVariable(K), TypeVariable(V)>) -> Unit): Unit defined in kotlin.collections
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:151:77 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:155:50 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:155:61 Overload resolution ambiguity: 
+public inline fun <T> Iterable<TypeVariable(T)>.forEach(action: (TypeVariable(T)) -> Unit): Unit defined in kotlin.collections
+public inline fun <K, V> Map<out TypeVariable(K), TypeVariable(V)>.forEach(action: (Map.Entry<TypeVariable(K), TypeVariable(V)>) -> Unit): Unit defined in kotlin.collections
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:155:71 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:158:73 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:158:79 Overload resolution ambiguity: 
+public inline fun <T> Iterable<TypeVariable(T)>.forEach(action: (TypeVariable(T)) -> Unit): Unit defined in kotlin.collections
+public inline fun <K, V> Map<out TypeVariable(K), TypeVariable(V)>.forEach(action: (Map.Entry<TypeVariable(K), TypeVariable(V)>) -> Unit): Unit defined in kotlin.collections
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:158:89 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:201:50 Unresolved reference: CharaList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:201:92 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:201:99 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:209:16 Unresolved reference: CharaList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:209:58 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:209:65 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:226:46 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:228:31 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:228:53 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:228:83 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:231:26 Unresolved reference: CharaList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:236:31 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:236:63 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:236:70 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:239:17 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:241:42 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:243:53 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:243:60 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:262:73 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:262:80 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:274:90 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:278:69 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:280:90 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:324:76 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:324:83 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:336:96 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:340:72 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:342:96 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:433:20 Unresolved reference: CharaList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:433:76 Unresolved reference: CharaList
+
+> Task :core:compileKotlinJvm FAILED
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/RateCalculator.kt:30:47 Unresolved reference: CharaSelection
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/RateCalculator.kt:43:42 Overload resolution ambiguity: 
+public final operator fun plus(other: Byte): Int defined in kotlin.Int
+public final operator fun plus(other: Double): Double defined in kotlin.Int
+public final operator fun plus(other: Float): Float defined in kotlin.Int
+public final operator fun plus(other: Int): Int defined in kotlin.Int
+public final operator fun plus(other: Long): Long defined in kotlin.Int
+public final operator fun plus(other: Short): Int defined in kotlin.Int
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/RateCalculator.kt:47:42 Overload resolution ambiguity: 
+public final operator fun plus(other: Byte): Int defined in kotlin.Int
+public final operator fun plus(other: Double): Double defined in kotlin.Int
+public final operator fun plus(other: Float): Float defined in kotlin.Int
+public final operator fun plus(other: Int): Int defined in kotlin.Int
+public final operator fun plus(other: Long): Long defined in kotlin.Int
+public final operator fun plus(other: Short): Int defined in kotlin.Int
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/RateCalculator.kt:72:45 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/RateCalculator.kt:72:52 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/RateCalculator.kt:75:75 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/RateCalculator.kt:75:82 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/RateCalculator.kt:78:95 Not enough information to infer type variable R
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/RateCalculator.kt:79:69 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/RateCalculator.kt:81:41 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/RateCalculator.kt:81:53 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/RateCalculator.kt:93:51 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/RateCalculator.kt:94:17 Overload resolution ambiguity: 
+public inline fun <T> Iterable<TypeVariable(T)>.forEach(action: (TypeVariable(T)) -> Unit): Unit defined in kotlin.collections
+public inline fun <K, V> Map<out TypeVariable(K), TypeVariable(V)>.forEach(action: (Map.Entry<TypeVariable(K), TypeVariable(V)>) -> Unit): Unit defined in kotlin.collections
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/RateCalculator.kt:94:27 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/RateCalculator.kt:95:44 Overload resolution ambiguity: 
+public final operator fun plus(other: Byte): Double defined in kotlin.Double
+public final operator fun plus(other: Double): Double defined in kotlin.Double
+public final operator fun plus(other: Float): Double defined in kotlin.Double
+public final operator fun plus(other: Int): Double defined in kotlin.Double
+public final operator fun plus(other: Long): Double defined in kotlin.Double
+public final operator fun plus(other: Short): Double defined in kotlin.Double
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/RateCalculator.kt:96:44 Overload resolution ambiguity: 
+public final operator fun plus(other: Byte): Double defined in kotlin.Double
+public final operator fun plus(other: Double): Double defined in kotlin.Double
+public final operator fun plus(other: Float): Double defined in kotlin.Double
+public final operator fun plus(other: Int): Double defined in kotlin.Double
+public final operator fun plus(other: Long): Double defined in kotlin.Double
+public final operator fun plus(other: Short): Double defined in kotlin.Double
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/RateCalculator.kt:97:44 Overload resolution ambiguity: 
+public final operator fun plus(other: Byte): Double defined in kotlin.Double
+public final operator fun plus(other: Double): Double defined in kotlin.Double
+public final operator fun plus(other: Float): Double defined in kotlin.Double
+public final operator fun plus(other: Int): Double defined in kotlin.Double
+public final operator fun plus(other: Long): Double defined in kotlin.Double
+public final operator fun plus(other: Short): Double defined in kotlin.Double
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/RateCalculator.kt:99:26 Overload resolution ambiguity: 
+public final operator fun plus(other: Byte): Double defined in kotlin.Double
+public final operator fun plus(other: Double): Double defined in kotlin.Double
+public final operator fun plus(other: Float): Double defined in kotlin.Double
+public final operator fun plus(other: Int): Double defined in kotlin.Double
+public final operator fun plus(other: Long): Double defined in kotlin.Double
+public final operator fun plus(other: Short): Double defined in kotlin.Double
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/RateCalculator.kt:103:107 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:54:1 Expecting a top level declaration
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:21:45 Unresolved reference: Store
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:21:63 Unresolved reference: child
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:21:70 Unresolved reference: parent2
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:24:22 'this' is not defined in this context
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:25:24 'this' is not defined in this context
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:26:24 'this' is not defined in this context
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:27:25 'this' is not defined in this context
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:28:25 'this' is not defined in this context
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:29:25 'this' is not defined in this context
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:30:25 'this' is not defined in this context
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:32:16 Unresolved reference: Store
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:32:47 Unresolved reference: Store
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:32:78 Unresolved reference: Store
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:33:17 Unresolved reference: Store
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:33:63 Unresolved reference: Store
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:34:17 Unresolved reference: Store
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:34:63 Unresolved reference: Store
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:40:14 Unresolved reference: childSelected
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:41:20 Unresolved reference: CharaList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:42:20 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:46:13 Unresolved reference: orderByRelation
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:47:46 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:49:58 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:49:70 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:53:9 Unresolved reference: CharaList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:60:23 Unresolved reference: ImmutableList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:72:17 Unresolved reference: ImmutableMap
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:72:49 Unresolved reference: persistentMapOf
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:73:19 Unresolved reference: ImmutableList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:73:40 Unresolved reference: persistentListOf
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:74:16 Unresolved reference: ImmutableList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:74:40 Unresolved reference: persistentListOf
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:82:13 Unresolved reference: CharaList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:82:61 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:83:32 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:83:65 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:87:70 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:109:19 Unresolved reference: ImmutableList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:109:43 Unresolved reference: persistentListOf
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:112:29 Unresolved reference: ImmutableList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:112:51 Unresolved reference: persistentListOf
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:113:26 Unresolved reference: ImmutableList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:113:48 Unresolved reference: persistentListOf
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:114:21 Unresolved reference: ImmutableList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:114:43 Unresolved reference: PersistentList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:114:67 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:115:22 Unresolved reference: ImmutableList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:115:43 Unresolved reference: PersistentList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:116:21 Unresolved reference: ImmutableList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:116:42 Unresolved reference: PersistentList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:127:29 Unresolved reference: ImmutableList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:127:51 Unresolved reference: PersistentList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:128:21 Unresolved reference: ImmutableList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:128:45 Unresolved reference: PersistentList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:129:23 Unresolved reference: ImmutableList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:129:47 Unresolved reference: PersistentList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:130:26 Unresolved reference: ImmutableList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:130:50 Unresolved reference: PersistentList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:140:17 Unresolved reference: ImmutableList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:140:41 Unresolved reference: persistentListOf
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:36:18 Property delegate must have a 'getValue(ViewModel, KProperty<*>)' method. None of the following functions is suitable: 
+public inline operator fun <T> State<???>.getValue(thisObj: Any?, property: KProperty<*>): ??? defined in androidx.compose.runtime
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:36:18 Property delegate must have a 'setValue(ViewModel, KProperty<*>, [Error type: Error delegation type for mutableStateOf(State())])' method. None of the following functions is suitable: 
+public inline operator fun <T> MutableState<???>.setValue(thisObj: Any?, property: KProperty<*>, value: ???): Unit defined in androidx.compose.runtime
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:36:33 Unresolved reference: State
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:42:37 Unresolved reference: State
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:42:49 Unresolved reference: State
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:46:41 Unresolved reference: CharaSelection
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:46:62 Unresolved reference: CharaSelection
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:53:42 Unresolved reference: TableState
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:53:59 Unresolved reference: TableState
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:59:24 Unresolved reference: Page
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:109:79 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:122:26 Unresolved reference: CharaList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:123:23 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:123:108 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:124:20 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:125:55 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:127:20 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:127:46 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:129:20 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:129:46 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:136:26 Unresolved reference: CharaList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:138:16 Overload resolution ambiguity: 
+public inline fun <T> Iterable<TypeVariable(T)>.forEach(action: (TypeVariable(T)) -> Unit): Unit defined in kotlin.collections
+public inline fun <K, V> Map<out TypeVariable(K), TypeVariable(V)>.forEach(action: (Map.Entry<TypeVariable(K), TypeVariable(V)>) -> Unit): Unit defined in kotlin.collections
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:138:26 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:142:47 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:142:59 Overload resolution ambiguity: 
+public inline fun <T> Iterable<TypeVariable(T)>.forEach(action: (TypeVariable(T)) -> Unit): Unit defined in kotlin.collections
+public inline fun <K, V> Map<out TypeVariable(K), TypeVariable(V)>.forEach(action: (Map.Entry<TypeVariable(K), TypeVariable(V)>) -> Unit): Unit defined in kotlin.collections
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:142:69 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:148:38 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:148:49 Overload resolution ambiguity: 
+public inline fun <T> Iterable<TypeVariable(T)>.forEach(action: (TypeVariable(T)) -> Unit): Unit defined in kotlin.collections
+public inline fun <K, V> Map<out TypeVariable(K), TypeVariable(V)>.forEach(action: (Map.Entry<TypeVariable(K), TypeVariable(V)>) -> Unit): Unit defined in kotlin.collections
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:148:59 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:151:61 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:151:67 Overload resolution ambiguity: 
+public inline fun <T> Iterable<TypeVariable(T)>.forEach(action: (TypeVariable(T)) -> Unit): Unit defined in kotlin.collections
+public inline fun <K, V> Map<out TypeVariable(K), TypeVariable(V)>.forEach(action: (Map.Entry<TypeVariable(K), TypeVariable(V)>) -> Unit): Unit defined in kotlin.collections
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:151:77 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:155:50 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:155:61 Overload resolution ambiguity: 
+public inline fun <T> Iterable<TypeVariable(T)>.forEach(action: (TypeVariable(T)) -> Unit): Unit defined in kotlin.collections
+public inline fun <K, V> Map<out TypeVariable(K), TypeVariable(V)>.forEach(action: (Map.Entry<TypeVariable(K), TypeVariable(V)>) -> Unit): Unit defined in kotlin.collections
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:155:71 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:158:73 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:158:79 Overload resolution ambiguity: 
+public inline fun <T> Iterable<TypeVariable(T)>.forEach(action: (TypeVariable(T)) -> Unit): Unit defined in kotlin.collections
+public inline fun <K, V> Map<out TypeVariable(K), TypeVariable(V)>.forEach(action: (Map.Entry<TypeVariable(K), TypeVariable(V)>) -> Unit): Unit defined in kotlin.collections
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:158:89 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:201:50 Unresolved reference: CharaList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:201:92 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:201:99 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:209:16 Unresolved reference: CharaList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:209:58 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:209:65 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:226:46 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:228:31 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:228:53 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:228:83 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:231:26 Unresolved reference: CharaList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:236:31 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:236:63 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:236:70 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:239:17 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:241:42 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:243:53 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:243:60 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:262:73 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:262:80 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:274:90 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:278:69 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:280:90 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:324:76 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:324:83 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:336:96 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:340:72 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:342:96 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:433:20 Unresolved reference: CharaList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:433:76 Unresolved reference: CharaList
+
+> Task :core:compileKotlinJs FAILED
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/RateCalculator.kt:30:47 Unresolved reference: CharaSelection
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/RateCalculator.kt:43:42 Overload resolution ambiguity: 
+public final operator fun plus(other: Byte): Int defined in kotlin.Int
+public final operator fun plus(other: Double): Double defined in kotlin.Int
+public final operator fun plus(other: Float): Float defined in kotlin.Int
+public final operator fun plus(other: Int): Int defined in kotlin.Int
+public final operator fun plus(other: Long): Long defined in kotlin.Int
+public final operator fun plus(other: Short): Int defined in kotlin.Int
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/RateCalculator.kt:47:42 Overload resolution ambiguity: 
+public final operator fun plus(other: Byte): Int defined in kotlin.Int
+public final operator fun plus(other: Double): Double defined in kotlin.Int
+public final operator fun plus(other: Float): Float defined in kotlin.Int
+public final operator fun plus(other: Int): Int defined in kotlin.Int
+public final operator fun plus(other: Long): Long defined in kotlin.Int
+public final operator fun plus(other: Short): Int defined in kotlin.Int
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/RateCalculator.kt:72:45 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/RateCalculator.kt:72:52 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/RateCalculator.kt:75:75 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/RateCalculator.kt:75:82 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/RateCalculator.kt:78:95 Not enough information to infer type variable R
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/RateCalculator.kt:79:69 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/RateCalculator.kt:81:41 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/RateCalculator.kt:81:53 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/RateCalculator.kt:93:51 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/RateCalculator.kt:94:17 Overload resolution ambiguity: 
+public inline fun <T> Iterable<TypeVariable(T)>.forEach(action: (TypeVariable(T)) -> Unit): Unit defined in kotlin.collections
+public inline fun <K, V> Map<out TypeVariable(K), TypeVariable(V)>.forEach(action: (Map.Entry<TypeVariable(K), TypeVariable(V)>) -> Unit): Unit defined in kotlin.collections
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/RateCalculator.kt:94:27 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/RateCalculator.kt:95:44 Overload resolution ambiguity: 
+public final operator fun plus(other: Byte): Double defined in kotlin.Double
+public final operator fun plus(other: Double): Double defined in kotlin.Double
+public final operator fun plus(other: Float): Double defined in kotlin.Double
+public final operator fun plus(other: Int): Double defined in kotlin.Double
+public final operator fun plus(other: Long): Double defined in kotlin.Double
+public final operator fun plus(other: Short): Double defined in kotlin.Double
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/RateCalculator.kt:96:44 Overload resolution ambiguity: 
+public final operator fun plus(other: Byte): Double defined in kotlin.Double
+public final operator fun plus(other: Double): Double defined in kotlin.Double
+public final operator fun plus(other: Float): Double defined in kotlin.Double
+public final operator fun plus(other: Int): Double defined in kotlin.Double
+public final operator fun plus(other: Long): Double defined in kotlin.Double
+public final operator fun plus(other: Short): Double defined in kotlin.Double
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/RateCalculator.kt:97:44 Overload resolution ambiguity: 
+public final operator fun plus(other: Byte): Double defined in kotlin.Double
+public final operator fun plus(other: Double): Double defined in kotlin.Double
+public final operator fun plus(other: Float): Double defined in kotlin.Double
+public final operator fun plus(other: Int): Double defined in kotlin.Double
+public final operator fun plus(other: Long): Double defined in kotlin.Double
+public final operator fun plus(other: Short): Double defined in kotlin.Double
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/RateCalculator.kt:99:26 Overload resolution ambiguity: 
+public final operator fun plus(other: Byte): Double defined in kotlin.Double
+public final operator fun plus(other: Double): Double defined in kotlin.Double
+public final operator fun plus(other: Float): Double defined in kotlin.Double
+public final operator fun plus(other: Int): Double defined in kotlin.Double
+public final operator fun plus(other: Long): Double defined in kotlin.Double
+public final operator fun plus(other: Short): Double defined in kotlin.Double
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/RateCalculator.kt:103:107 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:54:1 Expecting a top level declaration
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:21:45 Unresolved reference: Store
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:21:63 Unresolved reference: child
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:21:70 Unresolved reference: parent2
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:24:22 'this' is not defined in this context
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:25:24 'this' is not defined in this context
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:26:24 'this' is not defined in this context
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:27:25 'this' is not defined in this context
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:28:25 'this' is not defined in this context
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:29:25 'this' is not defined in this context
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:30:25 'this' is not defined in this context
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:32:16 Unresolved reference: Store
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:32:47 Unresolved reference: Store
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:32:78 Unresolved reference: Store
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:33:17 Unresolved reference: Store
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:33:63 Unresolved reference: Store
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:34:17 Unresolved reference: Store
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:34:63 Unresolved reference: Store
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:40:14 Unresolved reference: childSelected
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:41:20 Unresolved reference: CharaList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:42:20 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:46:13 Unresolved reference: orderByRelation
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:47:46 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:49:58 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:49:70 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:53:9 Unresolved reference: CharaList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:60:23 Unresolved reference: ImmutableList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:72:17 Unresolved reference: ImmutableMap
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:72:49 Unresolved reference: persistentMapOf
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:73:19 Unresolved reference: ImmutableList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:73:40 Unresolved reference: persistentListOf
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:74:16 Unresolved reference: ImmutableList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:74:40 Unresolved reference: persistentListOf
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:82:13 Unresolved reference: CharaList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:82:61 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:83:32 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:83:65 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:87:70 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:109:19 Unresolved reference: ImmutableList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:109:43 Unresolved reference: persistentListOf
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:112:29 Unresolved reference: ImmutableList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:112:51 Unresolved reference: persistentListOf
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:113:26 Unresolved reference: ImmutableList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:113:48 Unresolved reference: persistentListOf
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:114:21 Unresolved reference: ImmutableList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:114:43 Unresolved reference: PersistentList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:114:67 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:115:22 Unresolved reference: ImmutableList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:115:43 Unresolved reference: PersistentList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:116:21 Unresolved reference: ImmutableList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:116:42 Unresolved reference: PersistentList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:127:29 Unresolved reference: ImmutableList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:127:51 Unresolved reference: PersistentList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:128:21 Unresolved reference: ImmutableList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:128:45 Unresolved reference: PersistentList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:129:23 Unresolved reference: ImmutableList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:129:47 Unresolved reference: PersistentList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:130:26 Unresolved reference: ImmutableList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:130:50 Unresolved reference: PersistentList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:140:17 Unresolved reference: ImmutableList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/State.kt:140:41 Unresolved reference: persistentListOf
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:36:18 Property delegate must have a 'getValue(ViewModel, KProperty<*>)' method. None of the following functions is suitable: 
+public inline operator fun <T> State<???>.getValue(thisObj: Any?, property: KProperty<*>): ??? defined in androidx.compose.runtime
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:36:18 Property delegate must have a 'setValue(ViewModel, KProperty<*>, [Error type: Error delegation type for mutableStateOf(State())])' method. None of the following functions is suitable: 
+public inline operator fun <T> MutableState<???>.setValue(thisObj: Any?, property: KProperty<*>, value: ???): Unit defined in androidx.compose.runtime
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:36:33 Unresolved reference: State
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:42:37 Unresolved reference: State
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:42:49 Unresolved reference: State
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:46:41 Unresolved reference: CharaSelection
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:46:62 Unresolved reference: CharaSelection
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:53:42 Unresolved reference: TableState
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:53:59 Unresolved reference: TableState
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:59:24 Unresolved reference: Page
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:109:79 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:122:26 Unresolved reference: CharaList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:123:23 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:123:108 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:124:20 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:125:55 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:127:20 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:127:46 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:129:20 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:129:46 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:136:26 Unresolved reference: CharaList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:138:16 Overload resolution ambiguity: 
+public inline fun <T> Iterable<TypeVariable(T)>.forEach(action: (TypeVariable(T)) -> Unit): Unit defined in kotlin.collections
+public inline fun <K, V> Map<out TypeVariable(K), TypeVariable(V)>.forEach(action: (Map.Entry<TypeVariable(K), TypeVariable(V)>) -> Unit): Unit defined in kotlin.collections
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:138:26 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:142:47 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:142:59 Overload resolution ambiguity: 
+public inline fun <T> Iterable<TypeVariable(T)>.forEach(action: (TypeVariable(T)) -> Unit): Unit defined in kotlin.collections
+public inline fun <K, V> Map<out TypeVariable(K), TypeVariable(V)>.forEach(action: (Map.Entry<TypeVariable(K), TypeVariable(V)>) -> Unit): Unit defined in kotlin.collections
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:142:69 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:148:38 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:148:49 Overload resolution ambiguity: 
+public inline fun <T> Iterable<TypeVariable(T)>.forEach(action: (TypeVariable(T)) -> Unit): Unit defined in kotlin.collections
+public inline fun <K, V> Map<out TypeVariable(K), TypeVariable(V)>.forEach(action: (Map.Entry<TypeVariable(K), TypeVariable(V)>) -> Unit): Unit defined in kotlin.collections
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:148:59 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:151:61 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:151:67 Overload resolution ambiguity: 
+public inline fun <T> Iterable<TypeVariable(T)>.forEach(action: (TypeVariable(T)) -> Unit): Unit defined in kotlin.collections
+public inline fun <K, V> Map<out TypeVariable(K), TypeVariable(V)>.forEach(action: (Map.Entry<TypeVariable(K), TypeVariable(V)>) -> Unit): Unit defined in kotlin.collections
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:151:77 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:155:50 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:155:61 Overload resolution ambiguity: 
+public inline fun <T> Iterable<TypeVariable(T)>.forEach(action: (TypeVariable(T)) -> Unit): Unit defined in kotlin.collections
+public inline fun <K, V> Map<out TypeVariable(K), TypeVariable(V)>.forEach(action: (Map.Entry<TypeVariable(K), TypeVariable(V)>) -> Unit): Unit defined in kotlin.collections
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:155:71 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:158:73 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:158:79 Overload resolution ambiguity: 
+public inline fun <T> Iterable<TypeVariable(T)>.forEach(action: (TypeVariable(T)) -> Unit): Unit defined in kotlin.collections
+public inline fun <K, V> Map<out TypeVariable(K), TypeVariable(V)>.forEach(action: (Map.Entry<TypeVariable(K), TypeVariable(V)>) -> Unit): Unit defined in kotlin.collections
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:158:89 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:201:50 Unresolved reference: CharaList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:201:92 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:201:99 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:209:16 Unresolved reference: CharaList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:209:58 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:209:65 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:226:46 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:228:31 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:228:53 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:228:83 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:231:26 Unresolved reference: CharaList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:236:31 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:236:63 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:236:70 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:239:17 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:241:42 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:243:53 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:243:60 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:262:73 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:262:80 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:274:90 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:278:69 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:280:90 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:324:76 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:324:83 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:336:96 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:340:72 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:342:96 Unresolved reference: it
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:433:20 Unresolved reference: CharaList
+e: file:///C:/Users/Simon/Documents/GitHub/umaishow/core/src/commonMain/kotlin/io/github/mee1080/umaishow/vm/ViewModel.kt:433:76 Unresolved reference: CharaList
+
+FAILURE: Build completed with 4 failures.
+
+1: Task failed with an exception.
+-----------
+* What went wrong:
+Execution failed for task ':core:compileCommonMainKotlinMetadata'.
+> A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+   > Compilation error. See log for more details
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+==============================================================================
+
+2: Task failed with an exception.
+-----------
+* What went wrong:
+Execution failed for task ':core:compileKotlinWasmJs'.
+> A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+   > Compilation error. See log for more details
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+==============================================================================
+
+3: Task failed with an exception.
+-----------
+* What went wrong:
+Execution failed for task ':core:compileKotlinJvm'.
+> A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+   > Compilation error. See log for more details
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+==============================================================================
+
+4: Task failed with an exception.
+-----------
+* What went wrong:
+Execution failed for task ':core:compileKotlinJs'.
+> A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+   > Compilation error. See log for more details
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+==============================================================================
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.5/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD FAILED in 3s
+74 actionable tasks: 13 executed, 61 up-to-date

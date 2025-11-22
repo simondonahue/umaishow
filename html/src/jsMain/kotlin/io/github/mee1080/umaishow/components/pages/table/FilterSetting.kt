@@ -20,17 +20,17 @@ import org.jetbrains.compose.web.dom.Text
 fun FilterSetting(state: TableState, model: ViewModel) {
 
     Div {
-        Text("行表示対象")
-        LabeledRadio("rowFilterMode", "0", "全て", state.rowFilter.mode == FilterMode.NONE) {
+        Text("Row Display Target")
+        LabeledRadio("rowFilterMode", "0", "All", state.rowFilter.mode == FilterMode.NONE) {
             model.updateRowFilter { copy(mode = FilterMode.NONE) }
         }
-        LabeledRadio("rowFilterMode", "1", "所持のみ", state.rowFilter.mode == FilterMode.OWNED) {
+        LabeledRadio("rowFilterMode", "1", "Owned Only", state.rowFilter.mode == FilterMode.OWNED) {
             model.updateRowFilter { copy(mode = FilterMode.OWNED) }
         }
-        LabeledRadio("rowFilterMode", "2", "非所持のみ", state.rowFilter.mode == FilterMode.NOT_OWNED) {
+        LabeledRadio("rowFilterMode", "2", "Not Owned Only", state.rowFilter.mode == FilterMode.NOT_OWNED) {
             model.updateRowFilter { copy(mode = FilterMode.NOT_OWNED) }
         }
-        LabeledRadio("rowFilterMode", "3", "カスタム", state.rowFilter.mode == FilterMode.CUSTOM) {
+        LabeledRadio("rowFilterMode", "3", "Custom", state.rowFilter.mode == FilterMode.CUSTOM) {
             model.updateRowFilter { copy(mode = FilterMode.CUSTOM) }
         }
         Button({
@@ -39,9 +39,9 @@ fun FilterSetting(state: TableState, model: ViewModel) {
                 model.showRowCustomFilterDialog = true
             }
         }) {
-            Text("設定")
+            Text("Settings")
         }
-        LabeledRadio("rowFilterMode", "4", "要素", state.rowFilter.mode == FilterMode.RELATION) {
+        LabeledRadio("rowFilterMode", "4", "Factor", state.rowFilter.mode == FilterMode.RELATION) {
             model.updateRowFilter { copy(mode = FilterMode.RELATION) }
         }
         Button({
@@ -50,12 +50,12 @@ fun FilterSetting(state: TableState, model: ViewModel) {
                 model.showRowRelationFilterDialog = true
             }
         }) {
-            Text("設定")
+            Text("Settings")
         }
         MwcDialog(
             onPrimaryButton = { model.showRowCustomFilterDialog = false },
             onSecondaryButton = { model.updateRowCustomFilterAll() },
-            secondaryButtonLabel = { Text("全てON/OFF") },
+            secondaryButtonLabel = { Text("Toggle All") },
             attrs = {
                 if (model.showRowCustomFilterDialog) open()
                 onClose { model.showRowCustomFilterDialog = false }
@@ -85,7 +85,7 @@ fun FilterSetting(state: TableState, model: ViewModel) {
                             dense()
                             onClick { model.deleteRowRelationFilter(index) }
                         }) {
-                            Text("削除")
+                            Text("Delete")
                         }
                     }
                     CharaSelect("", CharaList.relationFilter, value) {
@@ -99,24 +99,24 @@ fun FilterSetting(state: TableState, model: ViewModel) {
                         raised()
                         onClick { model.addRowRelationFilter() }
                     }) {
-                        Text("追加")
+                        Text("Add")
                     }
                 }
             }
         }
     }
     Div {
-        Text("列表示対象")
-        LabeledRadio("columnFilterMode", "0", "全て", state.columnFilter.mode == FilterMode.NONE) {
+        Text("Column Display Target")
+        LabeledRadio("columnFilterMode", "0", "All", state.columnFilter.mode == FilterMode.NONE) {
             model.updateColumnFilter { copy(mode = FilterMode.NONE) }
         }
-        LabeledRadio("columnFilterMode", "1", "所持のみ", state.columnFilter.mode == FilterMode.OWNED) {
+        LabeledRadio("columnFilterMode", "1", "Owned Only", state.columnFilter.mode == FilterMode.OWNED) {
             model.updateColumnFilter { copy(mode = FilterMode.OWNED) }
         }
-        LabeledRadio("columnFilterMode", "2", "非所持のみ", state.columnFilter.mode == FilterMode.NOT_OWNED) {
+        LabeledRadio("columnFilterMode", "2", "Not Owned Only", state.columnFilter.mode == FilterMode.NOT_OWNED) {
             model.updateColumnFilter { copy(mode = FilterMode.NOT_OWNED) }
         }
-        LabeledRadio("columnFilterMode", "3", "カスタム", state.columnFilter.mode == FilterMode.CUSTOM) {
+        LabeledRadio("columnFilterMode", "3", "Custom", state.columnFilter.mode == FilterMode.CUSTOM) {
             model.updateColumnFilter { copy(mode = FilterMode.CUSTOM) }
         }
         Button({
@@ -125,9 +125,9 @@ fun FilterSetting(state: TableState, model: ViewModel) {
                 model.showColumnCustomFilterDialog = true
             }
         }) {
-            Text("設定")
+            Text("Settings")
         }
-        LabeledRadio("columnFilterMode", "4", "要素", state.columnFilter.mode == FilterMode.RELATION) {
+        LabeledRadio("columnFilterMode", "4", "Factor", state.columnFilter.mode == FilterMode.RELATION) {
             model.updateColumnFilter { copy(mode = FilterMode.RELATION) }
         }
         Button({
@@ -136,12 +136,12 @@ fun FilterSetting(state: TableState, model: ViewModel) {
                 model.showColumnRelationFilterDialog = true
             }
         }) {
-            Text("設定")
+            Text("Settings")
         }
         MwcDialog(
             onPrimaryButton = { model.showColumnCustomFilterDialog = false },
             onSecondaryButton = { model.updateColumnCustomFilterAll() },
-            secondaryButtonLabel = { Text("全てON/OFF") },
+            secondaryButtonLabel = { Text("Toggle All") },
             attrs = {
                 if (model.showColumnCustomFilterDialog) open()
                 onClose { model.showColumnCustomFilterDialog = false }
@@ -171,7 +171,7 @@ fun FilterSetting(state: TableState, model: ViewModel) {
                             dense()
                             onClick { model.deleteColumnRelationFilter(index) }
                         }) {
-                            Text("削除")
+                            Text("Delete")
                         }
                     }
                     CharaSelect("", CharaList.relationFilter, value) {
@@ -185,7 +185,7 @@ fun FilterSetting(state: TableState, model: ViewModel) {
                         raised()
                         onClick { model.addColumnRelationFilter() }
                     }) {
-                        Text("追加")
+                        Text("Add")
                     }
                 }
             }

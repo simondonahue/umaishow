@@ -68,6 +68,6 @@ fun main() {
                 target(ATarget.Blank)
                 attr("rel", "noreferrer noopener")
             }
-        ) { Text("使用ライブラリ") }
+        ) { Text("Libraries Used") }
     }
 }

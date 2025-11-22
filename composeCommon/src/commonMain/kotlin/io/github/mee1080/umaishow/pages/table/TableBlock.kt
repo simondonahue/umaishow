@@ -144,13 +144,13 @@ private fun TableHeader(
 ) {
     Row(modifier) {
         Box(Modifier.height(columnHeaderHeight).width(rowHeaderWidth).clickable { onSortKeyChanged(-2) }) {
-            Text("列クリックでソート", Modifier.align(Alignment.CenterStart))
+            Text("Click column to sort", Modifier.align(Alignment.CenterStart))
         }
         ProvideTextStyle(LocalTextStyle.current.copy(lineHeight = 1.em)) {
             if (state.displayChild) {
                 Box(columnHeaderModifier.clickable { onSortKeyChanged(-1) }) {
                     Text(
-                        text = "親相性",
+                        text = "Parent Affinity",
                         modifier = Modifier.align(Alignment.BottomCenter),
                         textAlign = TextAlign.Center,
                     )
@@ -181,7 +181,7 @@ private fun TableHeader(
                         }
                     ) {
                         Text(
-                            text = "合計",
+                            text = "Total",
                             modifier = Modifier.align(Alignment.BottomCenter),
                             textAlign = TextAlign.Center,
                         )
@@ -190,7 +190,7 @@ private fun TableHeader(
                 item {
                     Box(Modifier.height(columnHeaderHeight).width(infoWidth)) {
                         Text(
-                            text = "要素",
+                            text = "Factor",
                             modifier = Modifier.align(Alignment.BottomCenter),
                             textAlign = TextAlign.Center,
                         )
@@ -310,7 +310,7 @@ private fun TableRow(
                     onClick = { showRelationInfo(row.index) },
                     modifier = infoButtonModifier,
                 ) {
-                    Icon(Icons.Outlined.Info, "その他")
+                    Icon(Icons.Outlined.Info, "Other")
                 }
             }
         }

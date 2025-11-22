@@ -88,13 +88,13 @@ fun <T> FilterSettingDialog(
                             MyButton(
                                 onClick = { delete(index) },
                                 modifier = Modifier.padding(start = 8.dp),
-                            ) { Text("削除") }
+                            ) { Text("Delete") }
                         }
                     }
                 }
                 MyButton(
                     onClick = add,
-                ) { Text("追加") }
+                ) { Text("Add") }
             }
         }
     }

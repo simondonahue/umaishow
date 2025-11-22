@@ -1,0 +1,112 @@
+
+> Configure project :composeCommon
+New 'wasm' target is Work-in-Progress and is subject to change without notice.
+
+> Configure project :core
+New 'wasm' target is Work-in-Progress and is subject to change without notice.
+
+> Configure project :utility
+New 'wasm' target is Work-in-Progress and is subject to change without notice.
+
+> Configure project :wasm
+New 'wasm' target is Work-in-Progress and is subject to change without notice.
+
+> Task :assemble UP-TO-DATE
+> Task :check UP-TO-DATE
+> Task :build UP-TO-DATE
+> Task :composeCommon:checkKotlinGradlePluginConfigurationErrors
+> Task :composeCommon:generateComposeResClass UP-TO-DATE
+> Task :core:checkKotlinGradlePluginConfigurationErrors
+> Task :core:generateComposeResClass UP-TO-DATE
+> Task :core:transformCommonMainDependenciesMetadata UP-TO-DATE
+> Task :core:compileCommonMainKotlinMetadata UP-TO-DATE
+> Task :core:generateProjectStructureMetadata UP-TO-DATE
+> Task :core:metadataCommonMainProcessResources NO-SOURCE
+> Task :core:metadataCommonMainClasses UP-TO-DATE
+> Task :core:allMetadataJar UP-TO-DATE
+> Task :composeCommon:transformCommonMainDependenciesMetadata UP-TO-DATE
+> Task :composeCommon:compileCommonMainKotlinMetadata UP-TO-DATE
+> Task :composeCommon:generateProjectStructureMetadata UP-TO-DATE
+> Task :composeCommon:metadataCommonMainProcessResources NO-SOURCE
+> Task :composeCommon:metadataCommonMainClasses UP-TO-DATE
+> Task :composeCommon:allMetadataJar UP-TO-DATE
+> Task :core:compileKotlinJvm UP-TO-DATE
+> Task :core:jvmProcessResources NO-SOURCE
+> Task :core:jvmMainClasses UP-TO-DATE
+> Task :core:jvmJar UP-TO-DATE
+> Task :composeCommon:compileKotlinJvm UP-TO-DATE
+> Task :composeCommon:jvmProcessResources NO-SOURCE
+> Task :composeCommon:jvmMainClasses UP-TO-DATE
+> Task :composeCommon:jvmJar UP-TO-DATE
+> Task :composeCommon:wasmJsProcessResources NO-SOURCE
+> Task :core:compileKotlinWasmJs UP-TO-DATE
+> Task :core:wasmJsProcessResources NO-SOURCE
+> Task :core:wasmJsMainClasses UP-TO-DATE
+> Task :kotlinNpmCachesSetup
+> Task :core:wasmJsPackageJson UP-TO-DATE
+> Task :core:wasmJsPublicPackageJson UP-TO-DATE
+> Task :core:wasmJsJar UP-TO-DATE
+> Task :composeCommon:compileKotlinWasmJs UP-TO-DATE
+> Task :composeCommon:wasmJsMainClasses UP-TO-DATE
+> Task :composeCommon:compileProductionExecutableKotlinWasmJs UP-TO-DATE
+> Task :composeCommon:wasmJsProductionExecutableCompileSync UP-TO-DATE
+> Task :composeCommon:wasmJsBrowserProductionExecutableDistributeResources UP-TO-DATE
+> Task :kotlinNodeJsSetup UP-TO-DATE
+> Task :kotlinRestoreYarnLock UP-TO-DATE
+> Task :kotlinYarnSetup UP-TO-DATE
+> Task :core:jsPackageJson UP-TO-DATE
+> Task :composeCommon:wasmJsPackageJson UP-TO-DATE
+> Task :composeCommon:wasmJsTestPackageJson UP-TO-DATE
+> Task :core:jsTestPackageJson UP-TO-DATE
+> Task :core:wasmJsTestPackageJson UP-TO-DATE
+> Task :html:jsPackageJson UP-TO-DATE
+> Task :html:jsTestPackageJson UP-TO-DATE
+> Task :utility:jsPackageJson UP-TO-DATE
+> Task :utility:jsTestPackageJson UP-TO-DATE
+> Task :utility:wasmJsPackageJson UP-TO-DATE
+> Task :utility:wasmJsTestPackageJson UP-TO-DATE
+> Task :wasm:wasmJsPackageJson UP-TO-DATE
+> Task :wasm:wasmJsTestPackageJson UP-TO-DATE
+> Task :composeCommon:wasmJsPublicPackageJson UP-TO-DATE
+> Task :composeCommon:wasmJsTestPublicPackageJson
+> Task :core:jsPublicPackageJson UP-TO-DATE
+> Task :core:jsTestPublicPackageJson
+> Task :core:wasmJsTestPublicPackageJson
+> Task :html:jsPublicPackageJson UP-TO-DATE
+> Task :html:jsTestPublicPackageJson
+> Task :utility:jsPublicPackageJson UP-TO-DATE
+> Task :utility:jsTestPublicPackageJson
+> Task :utility:wasmJsPublicPackageJson UP-TO-DATE
+> Task :utility:wasmJsTestPublicPackageJson
+> Task :wasm:wasmJsPublicPackageJson UP-TO-DATE
+> Task :wasm:wasmJsTestPublicPackageJson
+> Task :packageJsonUmbrella
+> Task :rootPackageJson UP-TO-DATE
+> Task :kotlinNpmInstall UP-TO-DATE
+> Task :kotlinStoreYarnLock UP-TO-DATE
+
+> Task :composeCommon:wasmJsBrowserProductionWebpack FAILED
+Module not found: Error: Can't resolve './skiko.mjs' in 'C:\Users\Simon\Documents\GitHub\umaishow\build\js\packages\umaishow-composeCommon-wasm-js\kotlin'
+
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':composeCommon:wasmJsBrowserProductionWebpack'.
+> Module not found: Error: Can't resolve './skiko.mjs' in 'C:\Users\Simon\Documents\GitHub\umaishow\build\js\packages\umaishow-composeCommon-wasm-js\kotlin'
+
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.5/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD FAILED in 4s
+58 actionable tasks: 11 executed, 47 up-to-date
